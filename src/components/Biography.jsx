@@ -22,7 +22,7 @@ function Biography() {
 	return (
 		<motion.section
 			id='biography'
-			className='biography'
+			className='biography section'
 			variants={biographyVariants}
 			initial='hidden'
 			animate='visible'

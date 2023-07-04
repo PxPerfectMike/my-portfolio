@@ -22,7 +22,7 @@ function Education() {
 	return (
 		<motion.section
 			id='education'
-			className='education'
+			className='education section'
 			variants={educationVariants}
 			initial='hidden'
 			animate='visible'

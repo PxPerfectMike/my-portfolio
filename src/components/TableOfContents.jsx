@@ -15,7 +15,7 @@ const itemVariants = {
 const TableOfContents = () => {
 	return (
 		<motion.div
-			className='table-of-contents'
+			className='table-of-contents section'
 			variants={listVariants}
 			initial='hidden'
 			animate='visible'

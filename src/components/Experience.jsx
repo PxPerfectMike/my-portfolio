@@ -22,7 +22,7 @@ function Experience() {
 	return (
 		<motion.section
 			id='experience'
-			className='experience'
+			className='experience section'
 			variants={experienceVariants}
 			initial='hidden'
 			animate='visible'

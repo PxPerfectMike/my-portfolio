@@ -22,7 +22,7 @@ function Projects() {
 	return (
 		<motion.section
 			id='projects'
-			className='projects'
+			className='projects section'
 			variants={projectsVariants}
 			initial='hidden'
 			animate='visible'

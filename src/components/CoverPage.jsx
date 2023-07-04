@@ -19,7 +19,7 @@ const CoverPage = ({ start }) => {
 			initial='hidden'
 			animate='visible'
 			exit='exit'
-			className='cover-page'
+			className='cover-page section'
 		>
 			<h1 className='cover-title'>Michael Baker</h1>
 			<p className='cover-tagline'>From Chef to Software Engineer</p>

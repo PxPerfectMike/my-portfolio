@@ -22,7 +22,7 @@ function Skills() {
 	return (
 		<motion.section
 			id='skills'
-			className='skills'
+			className='skills section'
 			variants={skillsVariants}
 			initial='hidden'
 			animate='visible'

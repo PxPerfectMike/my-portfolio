@@ -12,6 +12,14 @@
 	-webkit-text-size-adjust: 100%;
 }
 
+.App {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
 body {
 	margin: 0;
 	display: flex;
@@ -31,8 +39,21 @@ body {
 	background-color: #f9f9f9;
 	border-radius: 5px;
 	width: 80%;
-	color: #242424; /* Change color of text inside section to dark color for readability */
-	text-align: center; /* Center align text */
+	color: #242424;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.section ul {
+	list-style: none;
+	padding: 0;
+}
+
+.section ul li {
+	padding: 0.5em 0;
 }
 
 a {
@@ -47,7 +68,7 @@ a:hover {
 h1 {
 	font-size: 3.2em;
 	line-height: 1.1;
-	text-align: center; /* Center align h1 */
+	text-align: center;
 }
 
 button {
